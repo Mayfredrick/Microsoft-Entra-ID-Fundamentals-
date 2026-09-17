@@ -1,0 +1,77 @@
+# Week 4 Day 4 – Entra Security & MFA
+
+## Objective
+
+The objective of this lab was to learn about Multi-Factor Authentication (MFA), authentication methods, and how MFA helps protect user accounts and Azure resources.
+
+## Lab Environment
+
+* Microsoft Azure
+* Microsoft Entra ID
+* Test User: `Azure Lab User`
+* Azure RBAC
+* Authentication methods
+
+## Tasks Completed
+
+* Reviewed the Azure Lab User account.
+* Reviewed authentication methods available in Microsoft Entra ID.
+* Learned about Multi-Factor Authentication (MFA).
+* Reviewed the three common authentication factor categories.
+* Compared authentication and authorization.
+* Reviewed the relationship between MFA and Azure RBAC.
+* Reviewed identity security and least privilege.
+
+## MFA
+
+Multi-Factor Authentication is a method of verifying a user's identity by using more than one authentication factor.
+
+The three common authentication factor categories are:
+
+* **Something you know:** Password
+* **Something you have:** Phone or security token
+* **Something you are:** Fingerprint or iris
+
+MFA provides an additional layer of security because a password alone is not enough to complete the authentication process.
+
+## Authentication Methods
+
+I learned about different authentication methods used to help protect user accounts and resources from unauthorized access.
+
+MFA can help protect accounts during security incidents such as phishing attacks because an attacker who obtains a user's password may still need an additional authentication factor.
+
+## Authentication vs Authorization
+
+Authentication verifies who the user is.
+
+Authorization determines what the authenticated user is allowed to access or what actions they are allowed to perform based on their permissions or role.
+
+For example:
+
+**MFA → Helps verify the user's identity**
+
+**Azure RBAC → Controls the user's access to Azure resources**
+
+## Security Best Practices
+
+Administrators should avoid giving users unnecessary permissions. Following the principle of least privilege helps ensure that users receive only the access they need to perform their responsibilities.
+
+Using MFA is also an important security practice because it adds another layer of protection to user accounts.
+
+## Screenshots
+
+The following screenshots were captured during the lab:
+
+* Azure Lab User
+* Authentication methods
+* Microsoft Entra security settings
+
+## Challenges
+
+There were no problems encountered during this lab.
+
+## What I Learned
+
+In today's lab, I learned about different authentication methods used to protect user accounts and resources from being compromised during security attacks such as phishing.
+
+I also gained a better understanding of how MFA helps verify a user's identity and how it works together with authorization controls such as Azure RBAC.
